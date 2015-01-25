@@ -6,7 +6,7 @@ Hi and welcome to my assignment for the online course "Getting and cleaning of d
 You will find 4 files within this repo. 
   1. Readme.md - what you reading 
   2. run_analysis.R - the code of the assignment, please read below for an explanation about how the script works
-  3. 3. Codebook.txt - Containing information about 
+  3. Codebook.txt - Containing information about 
     * Information about the variables (including units!) in the data set not contained in the tidy data
     * Information about the summary choices you made
     * Information about the experimental study design you used
