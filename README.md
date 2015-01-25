@@ -15,7 +15,13 @@ You will find 4 files within this repo.
     * Please refer to the codebook for more information about the variables in the source and summary data.
 
   ##run_analysis.R
-  
+The script follows the following steps 
+1. Reading of data files, including column headings, activity labels, as well as data files including test and training data, and subject and activity listings.
+2. To reduce the size of the data, the test and training datasets are reduced to only include the columns containing measurements on the mean and standard deviation
+3. Activity names and subject information are merged into the test and training datasets 
+4. At this point, the test and training datasets are merged into a single 'Combined dataset'
+5. The column headings of the combined dataset are then reformatted and renamed  
+6. Finally, the combined dataset is summarised by activity and subject to produce the final tidy dataset 
 
 
 
